@@ -1,0 +1,20 @@
+.porgress-content {
+    padding: 20px;
+    width: 30vw;
+    .progress {
+        margin-top: 25px;
+        background:#F2F2F2;        ;
+        border-radius: 8px;
+        height: 10px;
+        width: 100%;
+        justify-content: center;
+        overflow: hidden;
+        .progress-done {
+            width: 40px;
+            height: 10px;
+            border-radius: 8px;
+            background: #2F80ED;
+            transition: 1s ease 0.3s;
+        }
+    }
+}
